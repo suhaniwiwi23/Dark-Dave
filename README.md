@@ -33,3 +33,13 @@ cursed gems, avoid ghosts, and escape before midnight.
 - SDL2_ttf development libraries
 
 ### Compile
+g++ src/main.cpp -o game.exe
+
+-IC:/SDL2mingw/x86_64-w64-mingw32/include
+
+-LC:/SDL2mingw/x86_64-w64-mingw32/lib
+
+-lmingw32 -lSDL2main -lSDL2 -lSDL2_image -lSDL2_ttf
+
+###RUN
+.\game.exe
